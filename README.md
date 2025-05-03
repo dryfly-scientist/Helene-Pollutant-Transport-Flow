@@ -1,4 +1,4 @@
-# Post-Hurricane Helene Pollutant Transport Risk Mapping
+# Post-Hurricane Helene Pollutant Transport Risk Modeling
 
 ![Helene Transport Visualization](transport_flow.gif)
 
