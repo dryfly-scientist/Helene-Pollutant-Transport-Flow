@@ -2,13 +2,11 @@
 
 ![Helene Transport Visualization](transport_flow.gif)
 
----
 
 ## Overview
 
-This project uses **Google Earth Engine (GEE)** to map areas at high risk of pollutant transport in Western North Carolina as a result of Hurricane Helene, which impacted the region from September 24-27, 2024. By combining elevation, land cover, and precipitation parameters, a composite risk layer is generated to effectively identify hotspots where pollutants and debris are most likely to flow and end up as concentrated hotspots. The goal is to improve efficiency for environmental remediation efforts and resilience planning for Southern Appalachian communities.
+This project uses Google Earth Engine (GEE) to map areas at high risk of pollutant transport in Western North Carolina as a result of Hurricane Helene, which impacted the region from September 24-27, 2024. By combining elevation, land cover, and precipitation parameters, a composite risk layer is generated to effectively identify hotspots where pollutants and debris are most likely to flow and concentrate. The goal is to improve efficiency for targeted environmental remediation efforts and resilience planning in Southern Appalachian communities.
 
----
 
 ## Data Sources
 
@@ -16,12 +14,11 @@ The analysis integrates several remote sensing and publicly available datasets:
 
 | Dataset | Description | Provider |
 |--------|-------------|----------|
-| `USGS/WBD/2017/HUC10` | Watershed boundaries (HUC10 level) | USGS |
+| `USGS/WBD/2017/HUC10` | Watershed boundaries (HUC10) | USGS |
 | `USGS/SRTMGL1_003` | Elevation data (30m SRTM DEM) | NASA / USGS |
 | `USGS/NLCD_RELEASES/2019_REL/NLCD` | 2016 land cover classification | USGS |
 | `UCSB-CHG/CHIRPS/DAILY` | Daily precipitation estimates | Climate Hazards Group |
 
----
 
 ## Methodology
 
@@ -33,7 +30,6 @@ The risk model evaluates potential pollutant transport flow based on three key p
 
 Each layer is normalized and spatially smoothed to reduce noise. A weighted risk index is then calculated and classified into 10 risk levels ranging from very low to critical.
 
----
 
 ## Map Layers
 
@@ -44,7 +40,6 @@ Each layer is normalized and spatially smoothed to reduce noise. A weighted risk
 - **TransportRisk**: combined risk map of terrain, precipitation, land use
 - **BinnedRisk**: Final output categorized into 10 classes with color legend
 
----
 
 ## Risk Legend
 
@@ -63,7 +58,6 @@ The risk categories are color-coded as follows:
 | Extreme | `#990099` |
 | Critical | `#000000` |
 
----
 
 ## Author
 
