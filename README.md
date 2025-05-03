@@ -44,18 +44,18 @@ Each layer is normalized and spatially smoothed to reduce noise. A weighted risk
 
 The risk categories are color-coded as follows:
 
-| Risk Level | Color Code |
+| Risk Level | Color |
 |------------|------------|
-| Very Low | `#light green` |
-| Low | `#green` |
-| Moderately Low | `#dark green` |
-| Moderate | `#light yellow` |
-| Moderately High | `#dark yellow` |
-| High | `#orange` |
-| Very High | `#dark orange` |
-| Severe | `#red` |
-| Extreme | `#purple` |
-| Critical | `#black` |
+| Very Low | `light green` |
+| Low | `green` |
+| Moderately Low | `dark green` |
+| Moderate | `yellow` |
+| Moderately High | `dark yellow` |
+| High | `orange` |
+| Very High | `dark orange` |
+| Severe | `red` |
+| Extreme | `purple` |
+| Critical | `black` |
 
 
 ## Author
