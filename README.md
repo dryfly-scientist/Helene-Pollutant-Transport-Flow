@@ -46,16 +46,16 @@ The risk categories are color-coded as follows:
 
 | Risk Level | Color Code |
 |------------|------------|
-| Very Low | `#ccffcc` |
-| Low | `#66ff66` |
-| Moderately Low | `#009933` |
-| Moderate | `#ffff66` |
-| Moderately High | `#ffcc33` |
-| High | `#ff9933` |
-| Very High | `#ff6600` |
-| Severe | `#ff3300` |
-| Extreme | `#990099` |
-| Critical | `#000000` |
+| Very Low | `#light green` |
+| Low | `#green` |
+| Moderately Low | `#dark green` |
+| Moderate | `#light yellow` |
+| Moderately High | `#dark yellow` |
+| High | `#orange` |
+| Very High | `#dark orange` |
+| Severe | `#red` |
+| Extreme | `#purple` |
+| Critical | `#black` |
 
 
 ## Author
