@@ -63,9 +63,3 @@ The risk categories are color-coded as follows:
 **Aaron Wilson**  
 Environmental Science Student  
 University of North Carolina Wilmington
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
