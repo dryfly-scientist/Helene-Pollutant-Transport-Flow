@@ -5,7 +5,7 @@
 
 ## Overview
 
-This project uses Google Earth Engine (GEE) to map areas at high risk of pollutant transport in Western North Carolina as a result of Hurricane Helene, which impacted the region from September 24-27, 2024. By combining elevation, land cover, and precipitation parameters, a composite risk layer is generated to effectively identify hotspots where pollutants and debris are most likely to flow and concentrate. The goal is to improve efficiency for targeted environmental remediation efforts and resilience planning in Southern Appalachian communities.
+This project uses Google Earth Engine (GEE) to map areas at high risk of pollutant transport in Western North Carolina as a result of Hurricane Helene, which impacted the region from September 24-27, 2024. By combining elevation, land cover, and precipitation parameters, a composite risk layer is generated to effectively identify hotspots where pollutants and debris are most likely to flow and concentrate. The goal is to improve efficiency for targeted environmental remediation efforts and resilience planning across Southern Appalachian communities.
 
 
 ## Datasets
@@ -41,8 +41,6 @@ Each layer is normalized and spatially smoothed to reduce noise. A weighted risk
 
 
 ## Risk Legend
-
-The risk categories are color-coded as follows:
 
 | Risk Level | Color |
 |------------|------------|
